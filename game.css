@@ -1,0 +1,29 @@
+table {
+  width: 400px;
+}
+
+table tr td {
+  height: 30px;
+  width: 30px;
+  background-color: green;
+}
+
+table tr td.hero {
+  background: green url("characters.png") 9px -24px no-repeat;
+}
+
+table tr td.stone {
+  background-color: gray;
+}
+
+table tr td.monster {
+  background: green url("characters.png") 9px 4px no-repeat;
+}
+
+.miecz {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: yellow;
+  cursor: pointer;
+}
